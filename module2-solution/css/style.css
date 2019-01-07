@@ -4,9 +4,9 @@
 
 h1 {
 	margin-top:5%;
-	font-family: "arial, Times";
-	text-align:center;
 	margin-bottom:5%;
+	text-align:center;
+	font-family: "arial, Times";
 	font-size:1.75em;
 }
 
@@ -20,11 +20,12 @@ h1 {
 	background-color: #D3D3D3;
 	border:2px solid black;
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div > title {
 
-	color:white;
 	display: block;
 	border:1px solid black;
 	width: 25%;
@@ -38,10 +39,12 @@ div > title {
 
 #t1 {
 	background-color: #FFB6C1;
+	color: black;
 }
 
 #t2 {
 	background-color: #A52A2A;
+	color: white;
 }
 
 #t3{
@@ -53,7 +56,7 @@ div > title {
 p {
 	display: block;
 	color:blue;
-	padding: 2%;
+	padding: 3%;
 }
 
 @media(min-width: 992px){
